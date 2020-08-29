@@ -22,7 +22,7 @@ public class TestFacebookRegistration {
 		Select sel2 = new Select(driver.findElement(By.xpath("//*[@id=\"month\"]")));
 		sel2.selectByVisibleText("Jul");
 		Select sel3 = new Select(driver.findElement(By.xpath("//*[@id=\"year\"]")));
-		sel3.selectByIndex(44);
+		sel3.selectByValue("1977");
 		driver.findElement(By.xpath("//*[@name=\"sex\" and @value=\"2\"]")).click();  
 		driver.findElement(By.xpath("//*[@id=\"u_0_14\"]")).click();
 		System.out.println(driver.getTitle());

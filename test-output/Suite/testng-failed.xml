@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Chrometestcases(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="amazontest.TestMultipleBrowsersAmazonLogin">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="closeApplication"/>
+          <include name="AmazonLogin"/>
+        </methods>
+      </class> <!-- amazontest.TestMultipleBrowsersAmazonLogin -->
+    </classes>
+  </test> <!-- Chrometestcases(failed) -->
   <test thread-count="5" parallel="tests" name="Firefoxtestcases(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="Amazon.TestMultipleBrowsersAmazonLogin">
+      <class name="amazontest.TestMultipleBrowsersAmazonLogin">
         <methods>
-          <include name="AmazonLogin" invocation-numbers="0"/>
+          <include name="setupApplication"/>
+          <include name="closeApplication"/>
+          <include name="AmazonLogin"/>
         </methods>
-      </class> <!-- Amazon.TestMultipleBrowsersAmazonLogin -->
+      </class> <!-- amazontest.TestMultipleBrowsersAmazonLogin -->
     </classes>
   </test> <!-- Firefoxtestcases(failed) -->
 </suite> <!-- Failed suite [Suite] -->

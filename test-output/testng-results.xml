@@ -1,28 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[====Browser Session Start====]]>
+    </line>
+    <line>
+      <![CDATA[====Browser Session Start====]]>
+    </line>
+    <line>
+      <![CDATA[====Browser Session Start====]]>
+    </line>
+    <line>
+      <![CDATA[====Browser Session Start====]]>
+    </line>
+    <line>
+      <![CDATA[====Application Started====]]>
+    </line>
+    <line>
+      <![CDATA[====Application Started====]]>
+    </line>
+    <line>
+      <![CDATA[====Application Started====]]>
+    </line>
+    <line>
+      <![CDATA[====Application Started====]]>
+    </line>
+    <line>
+      <![CDATA[====Login Button clicked Successfully(Incorrect Pwd)==== Seleniumtest1]]>
+    </line>
+    <line>
+      <![CDATA[====Login Button clicked Successfully(Incorrect Pwd)==== Seleniumtest1]]>
+    </line>
+    <line>
+      <![CDATA[====Browser Session End====]]>
+    </line>
+    <line>
+      <![CDATA[====Browser Session Start====]]>
+    </line>
+    <line>
+      <![CDATA[====Application Signout Successful====]]>
+    </line>
+    <line>
+      <![CDATA[====Browser Session End====]]>
+    </line>
+    <line>
+      <![CDATA[====Browser Session Start====]]>
+    </line>
+    <line>
+      <![CDATA[====Application Started====]]>
+    </line>
+    <line>
+      <![CDATA[====Application Signout Successful====]]>
+    </line>
+    <line>
+      <![CDATA[====Browser Session End====]]>
+    </line>
+    <line>
+      <![CDATA[====Browser Session End====]]>
+    </line>
+    <line>
+      <![CDATA[====Application Started====]]>
+    </line>
+    <line>
+      <![CDATA[====Login Button clicked Successfully(Invalid Pwd)==== *B8&#$^#*&A5]]>
+    </line>
+    <line>
+      <![CDATA[====Login Button clicked Successfully(Invalid Pwd)==== *B8&#$^#*&A5]]>
+    </line>
+    <line>
+      <![CDATA[====Browser Session End====]]>
+    </line>
+    <line>
+      <![CDATA[====Browser Session Start====]]>
+    </line>
+    <line>
+      <![CDATA[====Browser Session End====]]>
+    </line>
+    <line>
+      <![CDATA[====Browser Session Start====]]>
+    </line>
+    <line>
+      <![CDATA[====Application Started====]]>
+    </line>
+    <line>
+      <![CDATA[====Application Started====]]>
+    </line>
+    <line>
+      <![CDATA[====Login Button clicked Successfully(Incorrect username)==== invalidusername@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[====Login Button clicked Successfully(Incorrect username)==== invalidusername@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[====Browser Session End====]]>
+    </line>
+    <line>
+      <![CDATA[====Browser Session End====]]>
+    </line>
   </reporter-output>
-  <suite started-at="2020-08-17T05:40:00 IST" name="Suite" finished-at="2020-08-17T05:40:33 IST" duration-ms="33801">
+  <suite started-at="2020-08-28T01:52:21 IST" name="Suite" finished-at="2020-08-28T01:53:38 IST" duration-ms="77152">
     <groups>
     </groups>
-    <test started-at="2020-08-17T05:40:00 IST" name="Firefoxtestcases" finished-at="2020-08-17T05:40:30 IST" duration-ms="30674">
-      <class name="Amazon.TestMultipleBrowsersAmazonLogin">
-        <test-method signature="AmazonLogin(java.lang.String)[pri:0, instance:Amazon.TestMultipleBrowsersAmazonLogin@6b4a4e18]" started-at="2020-08-17T05:40:00 IST" name="AmazonLogin" finished-at="2020-08-17T05:40:30 IST" duration-ms="30563" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AmazonLogin -->
-      </class> <!-- Amazon.TestMultipleBrowsersAmazonLogin -->
-    </test> <!-- Firefoxtestcases -->
-    <test started-at="2020-08-17T05:40:00 IST" name="Chrometestcases" finished-at="2020-08-17T05:40:33 IST" duration-ms="33801">
-      <class name="Amazon.TestMultipleBrowsersAmazonLogin">
-        <test-method signature="AmazonLogin(java.lang.String)[pri:0, instance:Amazon.TestMultipleBrowsersAmazonLogin@4c1d9d4b]" started-at="2020-08-17T05:40:00 IST" name="AmazonLogin" finished-at="2020-08-17T05:40:33 IST" duration-ms="33703" status="PASS">
+    <test started-at="2020-08-28T01:52:21 IST" name="Chrometestcases" finished-at="2020-08-28T01:53:06 IST" duration-ms="45281">
+      <class name="amazontest.TestMultipleBrowsersAmazonLogin">
+        <test-method is-config="true" signature="setupApplication(java.lang.String)[pri:0, instance:amazontest.TestMultipleBrowsersAmazonLogin@1f3f4916]" started-at="2020-08-28T01:52:21 IST" name="setupApplication" finished-at="2020-08-28T01:52:34 IST" duration-ms="12405" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,9 +112,258 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[====Browser Session Start====]]>
+            </line>
+            <line>
+              <![CDATA[====Application Started====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method signature="AmazonLogin()[pri:0, instance:amazontest.TestMultipleBrowsersAmazonLogin@1f3f4916]" started-at="2020-08-28T01:52:34 IST" name="AmazonLogin" description="This Testcase will perform valid login" finished-at="2020-08-28T01:53:04 IST" duration-ms="30754" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Application Signout Successful====]]>
+            </line>
           </reporter-output>
         </test-method> <!-- AmazonLogin -->
-      </class> <!-- Amazon.TestMultipleBrowsersAmazonLogin -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:amazontest.TestMultipleBrowsersAmazonLogin@1f3f4916]" started-at="2020-08-28T01:53:04 IST" name="closeApplication" finished-at="2020-08-28T01:53:06 IST" duration-ms="2027" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Browser Session End====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- amazontest.TestMultipleBrowsersAmazonLogin -->
     </test> <!-- Chrometestcases -->
+    <test started-at="2020-08-28T01:52:21 IST" name="Firefoxtestcases" finished-at="2020-08-28T01:53:08 IST" duration-ms="47114">
+      <class name="amazontest.TestMultipleBrowsersAmazonLogin">
+        <test-method is-config="true" signature="setupApplication(java.lang.String)[pri:0, instance:amazontest.TestMultipleBrowsersAmazonLogin@4278a03f]" started-at="2020-08-28T01:52:21 IST" name="setupApplication" finished-at="2020-08-28T01:52:34 IST" duration-ms="13013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[====Browser Session Start====]]>
+            </line>
+            <line>
+              <![CDATA[====Application Started====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method signature="AmazonLogin()[pri:0, instance:amazontest.TestMultipleBrowsersAmazonLogin@4278a03f]" started-at="2020-08-28T01:52:34 IST" name="AmazonLogin" description="This Testcase will perform valid login" finished-at="2020-08-28T01:52:58 IST" duration-ms="24076" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Application Signout Successful====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AmazonLogin -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:amazontest.TestMultipleBrowsersAmazonLogin@4278a03f]" started-at="2020-08-28T01:52:58 IST" name="closeApplication" finished-at="2020-08-28T01:53:08 IST" duration-ms="9932" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Browser Session End====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- amazontest.TestMultipleBrowsersAmazonLogin -->
+    </test> <!-- Firefoxtestcases -->
+    <test started-at="2020-08-28T01:52:21 IST" name="Firefoxtestcases1" finished-at="2020-08-28T01:53:36 IST" duration-ms="74404">
+      <class name="amazontest.AmazonLoginFail">
+        <test-method is-config="true" signature="setupApplication(java.lang.String)[pri:0, instance:amazontest.AmazonLoginFail@1f0f1111]" started-at="2020-08-28T01:52:21 IST" name="setupApplication" finished-at="2020-08-28T01:52:37 IST" duration-ms="16033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[====Browser Session Start====]]>
+            </line>
+            <line>
+              <![CDATA[====Application Started====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method signature="AmazonLogin()[pri:0, instance:amazontest.AmazonLoginFail@1f0f1111]" started-at="2020-08-28T01:52:37 IST" name="AmazonLogin" description="This Testcase will perform Incorrect password test" finished-at="2020-08-28T01:52:47 IST" duration-ms="9865" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Login Button clicked Successfully(Incorrect Pwd)==== Seleniumtest1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AmazonLogin -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:amazontest.AmazonLoginFail@1f0f1111]" started-at="2020-08-28T01:52:47 IST" name="closeApplication" finished-at="2020-08-28T01:52:52 IST" duration-ms="5296" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Browser Session End====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="setupApplication(java.lang.String)[pri:0, instance:amazontest.AmazonLoginFail@1f0f1111]" started-at="2020-08-28T01:52:52 IST" name="setupApplication" finished-at="2020-08-28T01:53:05 IST" duration-ms="12214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[====Browser Session Start====]]>
+            </line>
+            <line>
+              <![CDATA[====Application Started====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method signature="AmazonLogin1()[pri:0, instance:amazontest.AmazonLoginFail@1f0f1111]" started-at="2020-08-28T01:53:05 IST" name="AmazonLogin1" description="This Testcase will perform invalid password test" finished-at="2020-08-28T01:53:15 IST" duration-ms="10670" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Login Button clicked Successfully(Invalid Pwd)==== *B8&#$^#*&A5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AmazonLogin1 -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:amazontest.AmazonLoginFail@1f0f1111]" started-at="2020-08-28T01:53:15 IST" name="closeApplication" finished-at="2020-08-28T01:53:17 IST" duration-ms="1259" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Browser Session End====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="setupApplication(java.lang.String)[pri:0, instance:amazontest.AmazonLoginFail@1f0f1111]" started-at="2020-08-28T01:53:17 IST" name="setupApplication" finished-at="2020-08-28T01:53:24 IST" duration-ms="7560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[====Browser Session Start====]]>
+            </line>
+            <line>
+              <![CDATA[====Application Started====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method signature="AmazonLogin2()[pri:0, instance:amazontest.AmazonLoginFail@1f0f1111]" started-at="2020-08-28T01:53:24 IST" name="AmazonLogin2" description="This Testcase will perform incorrect username test" finished-at="2020-08-28T01:53:34 IST" duration-ms="10077" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Login Button clicked Successfully(Incorrect username)==== invalidusername@gmail.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AmazonLogin2 -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:amazontest.AmazonLoginFail@1f0f1111]" started-at="2020-08-28T01:53:34 IST" name="closeApplication" finished-at="2020-08-28T01:53:36 IST" duration-ms="1332" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Browser Session End====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- amazontest.AmazonLoginFail -->
+    </test> <!-- Firefoxtestcases1 -->
+    <test started-at="2020-08-28T01:52:21 IST" name="Chrometestcases1" finished-at="2020-08-28T01:53:38 IST" duration-ms="77152">
+      <class name="amazontest.AmazonLoginFail">
+        <test-method is-config="true" signature="setupApplication(java.lang.String)[pri:0, instance:amazontest.AmazonLoginFail@7c0c77c7]" started-at="2020-08-28T01:52:21 IST" name="setupApplication" finished-at="2020-08-28T01:52:33 IST" duration-ms="11635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[====Browser Session Start====]]>
+            </line>
+            <line>
+              <![CDATA[====Application Started====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method signature="AmazonLogin()[pri:0, instance:amazontest.AmazonLoginFail@7c0c77c7]" started-at="2020-08-28T01:52:33 IST" name="AmazonLogin" description="This Testcase will perform Incorrect password test" finished-at="2020-08-28T01:52:51 IST" duration-ms="18569" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Login Button clicked Successfully(Incorrect Pwd)==== Seleniumtest1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AmazonLogin -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:amazontest.AmazonLoginFail@7c0c77c7]" started-at="2020-08-28T01:52:51 IST" name="closeApplication" finished-at="2020-08-28T01:53:03 IST" duration-ms="11144" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Browser Session End====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="setupApplication(java.lang.String)[pri:0, instance:amazontest.AmazonLoginFail@7c0c77c7]" started-at="2020-08-28T01:53:03 IST" name="setupApplication" finished-at="2020-08-28T01:53:10 IST" duration-ms="7575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[====Browser Session Start====]]>
+            </line>
+            <line>
+              <![CDATA[====Application Started====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method signature="AmazonLogin1()[pri:0, instance:amazontest.AmazonLoginFail@7c0c77c7]" started-at="2020-08-28T01:53:10 IST" name="AmazonLogin1" description="This Testcase will perform invalid password test" finished-at="2020-08-28T01:53:20 IST" duration-ms="9412" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Login Button clicked Successfully(Invalid Pwd)==== *B8&#$^#*&A5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AmazonLogin1 -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:amazontest.AmazonLoginFail@7c0c77c7]" started-at="2020-08-28T01:53:20 IST" name="closeApplication" finished-at="2020-08-28T01:53:21 IST" duration-ms="1195" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Browser Session End====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="setupApplication(java.lang.String)[pri:0, instance:amazontest.AmazonLoginFail@7c0c77c7]" started-at="2020-08-28T01:53:21 IST" name="setupApplication" finished-at="2020-08-28T01:53:27 IST" duration-ms="6069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[====Browser Session Start====]]>
+            </line>
+            <line>
+              <![CDATA[====Application Started====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method signature="AmazonLogin2()[pri:0, instance:amazontest.AmazonLoginFail@7c0c77c7]" started-at="2020-08-28T01:53:27 IST" name="AmazonLogin2" description="This Testcase will perform incorrect username test" finished-at="2020-08-28T01:53:38 IST" duration-ms="10662" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Login Button clicked Successfully(Incorrect username)==== invalidusername@gmail.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AmazonLogin2 -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:amazontest.AmazonLoginFail@7c0c77c7]" started-at="2020-08-28T01:53:38 IST" name="closeApplication" finished-at="2020-08-28T01:53:38 IST" duration-ms="789" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====Browser Session End====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- amazontest.AmazonLoginFail -->
+    </test> <!-- Chrometestcases1 -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Amazon.TestMultipleBrowsersAmazonLogin">
+      <class name="seleniumSamples.TestRightClick">
         <methods>
-          <include name="AmazonLogin"/>
+          <include name="TestClick"/>
         </methods>
-      </class> <!-- Amazon.TestMultipleBrowsersAmazonLogin -->
+      </class> <!-- seleniumSamples.TestRightClick -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

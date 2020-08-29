@@ -4,7 +4,16 @@
   <test name="Firefoxtestcases">
     <parameter name="browser" value="firefox"/>
     <classes>	
-      <class name="Amazon.TestMultipleBrowsersAmazonLogin">
+      <class name="amazontest.TestMultipleBrowsersAmazonLogin">
+        <methods>
+        </methods>	
+      </class>
+    </classes>
+  </test> <!-- AmazonLoginTest -->
+    <test name="Firefoxtestcases1">
+    <parameter name="browser" value="firefox"/>
+    <classes>	
+      <class name="amazontest.AmazonLoginFail">
         <methods>
         </methods>	
       </class>
@@ -13,7 +22,16 @@
     <test name="Chrometestcases">
     <parameter name="browser" value="chrome"/>
     <classes>	
-      <class name="Amazon.TestMultipleBrowsersAmazonLogin">
+      <class name="amazontest.TestMultipleBrowsersAmazonLogin">
+        <methods>
+        </methods>
+      </class>
+    </classes>
+  </test> <!-- AmazonLoginTest -->
+      <test name="Chrometestcases1">
+    <parameter name="browser" value="chrome"/>
+    <classes>	
+      <class name="amazontest.AmazonLoginFail">
         <methods>
         </methods>
       </class>
@@ -22,7 +40,7 @@
  <!--    <test name="IEtestcases">
     <parameter name="browser" value="IE"/>
     <classes>	
-      <class name="Amazon.TestMultipleBrowsersAmazonLogin">
+      <class name="amazontest.TestMultipleBrowsersAmazonLogin">
         <methods>
         </methods>
       </class>

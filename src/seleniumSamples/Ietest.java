@@ -24,7 +24,7 @@ public class Ietest {
 
 			driver.findElement(By.xpath("//*[@id=\"ap_password\"]")).sendKeys("Seleniumtest1@");
 			driver.findElement(By.xpath("//*[@id=\"signInSubmit\"]")).click();
-
+			driver.quit();
 		}
 	}
 
